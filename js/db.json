@@ -1,0 +1,1200 @@
+{
+  "mangas": [
+    {
+      "id": "1",
+      "title": "Ikebukuro West Gate Park",
+      "author": "Ichiya Sazanami",
+      "publication_date": "2000",
+      "genre": [
+        "Action",
+        " Mystery",
+        " Drama"
+      ],
+      "image_url": "anime/Ikebukuro West Gate Park.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G24H1NJ8D/ikebukuro-west-gate-park"
+    },
+    {
+      "id": "2",
+      "title": "I'm in Love with the Villainess",
+      "author": "Inori",
+      "publication_date": "2021",
+      "genre": [
+        "Romance",
+        " Comedy ",
+        "Isekai "
+      ],
+      "image_url": "anime/I'm in Love with the Villainess.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GVDHX851V/im-in-love-with-the-villainess"
+    },
+    {
+      "id": "3",
+      "title": "In Another World With My Smartphone",
+      "author": "Patora Fuyuhara",
+      "publication_date": "2013",
+      "genre": [
+        "Isekai",
+        " Fantasy",
+        "Adventure"
+      ],
+      "image_url": "anime/In Another World With My Smartphone.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GYQ4ZWV46/in-another-world-with-my-smartphone"
+    },
+    {
+      "id": "4",
+      "title": "Jujutsu Kaisen",
+      "author": "Gege Akutami",
+      "publication_date": "2018",
+      "genre": [
+        "Action",
+        " Supernatural",
+        " Dark Fantasy"
+      ],
+      "image_url": "anime/Jujutsu Kaisen.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GRDV0019R/jujutsu-kaisen"
+    },
+    {
+      "id": "5",
+      "title": "Kill la Kill",
+      "author": "Kazuki Nakashima",
+      "publication_date": "2012",
+      "genre": [
+        "Action",
+        " Comedy",
+        " Sci-Fi"
+      ],
+      "image_url": "anime/Kill la Kill.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video/1218-kill-la-kill"
+    },
+    {
+      "id": "6",
+      "title": "La Princesse et la Bête",
+      "author": "Kaori Yuki",
+      "publication_date": "2009",
+      "genre": [
+        "Fantasy",
+        " Romance",
+        " Drama"
+      ],
+      "image_url": "anime/La Princesse et la Bête.png",
+      "info_url": "https://www.crunchyroll.com/fr/series/G0XHWM52V/sacrificial-princess-and-the-king-of-beasts"
+    },
+    {
+      "id": "7",
+      "title": "La Sorcière invincible tueuse de Slime depuis 300 ans",
+      "author": "Koreyoshi Natsumi",
+      "publication_date": "2016",
+      "genre": [
+        "Fantasy",
+        "Isekai",
+        "Comedy"
+      ],
+      "image_url": "anime/La Sorcière invincible tueuse de Slime depuis 300 ans.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GW4HM79VM/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level"
+    },
+    {
+      "id": "8",
+      "title": "L'Attaque des titans",
+      "author": "Hajime Isayama",
+      "publication_date": "2009",
+      "genre": [
+        "Action",
+        " Mystery",
+        " Fantasy"
+      ],
+      "image_url": "anime/L'Attaque des titans.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GR751KNZY/attack-on-titan"
+    },
+    {
+      "id": "9",
+      "title": "My Unique Skill Makes Me OP even at Level 1",
+      "author": "Nazuna Miki",
+      "publication_date": "2018",
+      "genre": [
+        "Isekai",
+        " Action",
+        " Fantasy"
+      ],
+      "image_url": "anime/My Unique Skill Makes Me OP even at Level 1.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G1XHJV0VV/my-unique-skill-makes-me-op-even-at-level-1"
+    },
+    {
+      "id": "10",
+      "title": "Link Click",
+      "author": "Lilith Games",
+      "publication_date": "2021",
+      "genre": [
+        "Mystery",
+        " Sci-Fi",
+        " Drama"
+      ],
+      "image_url": "anime/Link Click.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GP5HJ8E81/link-click"
+    },
+    {
+      "id": "11",
+      "title": "Loving Yamada at Lv999!",
+      "author": "Mizuki Fumita",
+      "publication_date": "2019",
+      "genre": [
+        "Romance",
+        " Comedy",
+        " Slice of Life"
+      ],
+      "image_url": "anime/Loving Yamada at Lv999!.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GNVHKNPQ7/my-love-story-with-yamada-kun-at-lv999"
+    },
+    {
+      "id": "12",
+      "title": "Mashle",
+      "author": "Hajime Komoto",
+      "publication_date": "2020",
+      "genre": [
+        "Action",
+        " Comedy",
+        " Fantasy"
+      ],
+      "image_url": "anime/Mashle.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GDKHZEP8W/mashle-magic-and-muscles"
+    },
+    {
+      "id": "13",
+      "title": "Moi, le maître des interdits",
+      "author": "Miyagi Shinya",
+      "publication_date": "2019",
+      "genre": [
+        "Fantasy",
+        " Action",
+        " Adventure"
+      ],
+      "image_url": "anime/Moi, le maître des interdits.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GP5HJ84M5/im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness?srsltid=AfmBOooc0iF7BsIU6mozrtJWnrUaML5k2Hm6Wz3ReQqbeesLAhrR-b_a"
+    },
+    {
+      "id": "14",
+      "title": "Moi, quand je me réincarne en Slime",
+      "author": "Fuse",
+      "publication_date": "2013",
+      "genre": [
+        "Isekai",
+        " Fantasy",
+        " Adventure"
+      ],
+      "image_url": "anime/Moi, quand je me réincarne en Slime.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime"
+    },
+    {
+      "id": "15",
+      "title": "Mushoku Tensei",
+      "author": "Rifujin na Magonote",
+      "publication_date": "2012",
+      "genre": [
+        "Isekai",
+        " Fantasy",
+        " Adventure"
+      ],
+      "image_url": "anime/Mushoku Tensei.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation"
+    },
+    {
+      "id": "16",
+      "title": "My Hero Academia",
+      "author": "Kōhei Horikoshi",
+      "publication_date": "2014",
+      "genre": [
+        "Action",
+        " Superhero",
+        " Shonen"
+      ],
+      "image_url": "anime/My Hero Academia.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G6NQ5DWZ6/my-hero-academia"
+    },
+    {
+      "id": "17",
+      "title": "My One-Hit Kill Sister",
+      "author": "Noryoku, Kōzō Koyama",
+      "publication_date": "2021",
+      "genre": [
+        "Action",
+        " Comedy",
+        " Fantasy"
+      ],
+      "image_url": "anime/My One-Hit Kill Sister.jpeg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G5PHNM717/my-one-hit-kill-sister"
+    },
+    {
+      "id": "18",
+      "title": "Naruto",
+      "author": "Masashi Kishimoto",
+      "publication_date": "1999",
+      "genre": [
+        "Action",
+        " Adventure",
+        " Shonen"
+      ],
+      "image_url": "anime/naruto.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video/266-naruto"
+    },
+    {
+      "id": "19",
+      "title": "No Game No Life",
+      "author": "Yū Kamiya",
+      "publication_date": "2012",
+      "genre": [
+        "Fantasy",
+        " Game",
+        " Isekai"
+      ],
+      "image_url": "anime/No Game No Life.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video/315-no-game-no-life"
+    },
+    {
+      "id": "20",
+      "title": "Noble New World Adventures",
+      "author": "Ichiro Tsunematsu",
+      "publication_date": "2017",
+      "genre": [
+        "Fantasy",
+        " Adventure",
+        " Isekai"
+      ],
+      "image_url": "anime/Noble New World Adventures.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GVDHX8QK5/the-aristocrats-otherworldly-adventure-serving-gods-who-go-too-far"
+    },
+    {
+      "id": "21",
+      "title": "One Piece",
+      "author": "Eiichiro Oda",
+      "publication_date": "1997",
+      "genre": [
+        "Action",
+        " Adventure",
+        " Shonen"
+      ],
+      "image_url": "anime/One Piece.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GRMG8ZQZR/one-piece"
+    },
+    {
+      "id": "22",
+      "title": "One Room, Hi Atari Futsuu, Tenshi Tsuki",
+      "author": "Tatsuya Shihira",
+      "publication_date": "2017",
+      "genre": [
+        "Romance",
+        " Slice of Life",
+        " Drama"
+      ],
+      "image_url": "anime/One Room, Hi Atari Futsuu, Tenshi Tsuki.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G6K5JGZ1Y/oneroom?srsltid=AfmBOooy27R90t9Osx28EC1cAd8JTtca-uVgIRwMvLGGh023gaBDrMy4"
+    },
+    {
+      "id": "23",
+      "title": "One-Punch-Man",
+      "author": "one, Yusuke Murata",
+      "publication_date": "2009",
+      "genre": [
+        "Action",
+        " Comedy",
+        " Superhero"
+      ],
+      "image_url": "anime/One Punch Man.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G63K98PZ6/one-punch-man"
+    },
+    {
+      "id": "24",
+      "title": "OsaMake",
+      "author": "Shūichi Nimaru",
+      "publication_date": "2018",
+      "genre": [
+        "Romance",
+        " Comedy",
+        " Slice of Life"
+      ],
+      "image_url": "anime/OsaMake.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G24H1N21Q/osamake-romcom-where-the-childhood-friend-wont-lose"
+    },
+    {
+      "id": "25",
+      "title": "OVERLORD",
+      "author": "Kugane Maruyama",
+      "publication_date": "2010",
+      "genre": [
+        "Isekai",
+        " Fantasy",
+        " Action"
+      ],
+      "image_url": "anime/OVERLORD.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video?search=OVERLORD"
+    },
+    {
+      "id": "26",
+      "title": "Radiant",
+      "author": "Tony Valente",
+      "publication_date": "2013",
+      "genre": [
+        "Action",
+        " Fantasy",
+        " Adventure"
+      ],
+      "image_url": "anime/Radiant.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G6W4MEZ0R/radiant"
+    },
+    {
+      "id": "27",
+      "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "author": "Hajime Kamoshida",
+      "publication_date": "2014",
+      "genre": [
+        "Romance",
+        " Supernatural",
+        " Drama"
+      ],
+      "image_url": "anime/Rascal Does Not Dream of Bunny Girl Senpai.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GYW4MG9G6/rascal-does-not-dream-of-bunny-girl-senpai"
+    },
+    {
+      "id": "28",
+      "title": "Rent A Girlfriend",
+      "author": "Reiji Miyajima",
+      "publication_date": "2017",
+      "genre": [
+        "Romance",
+        " Comedy",
+        " Slice of Life"
+      ],
+      "image_url": "anime/Rent A Girlfriend.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G6QWV3976/rent-a-girlfriend"
+    },
+    {
+      "id": "29",
+      "title": "Rokka: Braves of the Six Flowers",
+      "author": "Iori Miyazawa",
+      "publication_date": "2011",
+      "genre": [
+        "Fantasy",
+        " Adventure",
+        " Mystery"
+      ],
+      "image_url": "anime/Rokka  Braves of the Six Flowers.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GRVNEXKXY/rokka--braves-of-the-six-flowers-"
+    },
+    {
+      "id": "30",
+      "title": "Saihate no Paladin",
+      "author": "Kanata Yanagino",
+      "publication_date": "2017",
+      "genre": [
+        "Fantasy",
+        " Adventure",
+        " Action"
+      ],
+      "image_url": "anime/Saihate no Paladin.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GEXH3W8G1/the-faraway-paladin?srsltid=AfmBOooJ3G7QLvrkhY6wdD-Aqu9LL4bowwXBaFnGY_-mH7ih2APOkdDA"
+    },
+    {
+      "id": "31",
+      "title": "Seija Musou",
+      "author": "Riku Nanano",
+      "publication_date": "2018",
+      "genre": [
+        "Fantasy",
+        " Adventure",
+        " Isekai"
+      ],
+      "image_url": "anime/Seija Musou.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GG5H5XQ24/the-great-cleric?srsltid=AfmBOoq1XBWK5w7x4nbR9BAtfEo1x5G7bsBtGVD1x0_I5x4f66--G5WB"
+    },
+    {
+      "id": "32",
+      "title": "Seirei Gensouki",
+      "author": "Yoruhashi",
+      "publication_date": "2014",
+      "genre": [
+        "Fantasy",
+        " Adventure",
+        " Isekai"
+      ],
+      "image_url": "anime/Seirei Gensouki.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G0XHWM380/seirei-gensouki-spirit-chronicles"
+    },
+    {
+      "id": "33",
+      "title": "Sekai Saikou no Assassin",
+      "author": "Taro Hitsuji",
+      "publication_date": "2021",
+      "genre": [
+        "Fantasy",
+        " Action",
+        " Isekai"
+      ],
+      "image_url": "anime/Sekai Saikou no Assassin.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GMEHME55K/the-worlds-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat?srsltid=AfmBOoqehrZ4nYDvYIsqS0azsWOdQ5dq1YU3CbaQmnfrIHZR8-vD3uCg"
+    },
+    {
+      "id": "34",
+      "title": "Shangri-La Frontier",
+      "author": "Ryou, Bato",
+      "publication_date": "2020",
+      "genre": [
+        "Action",
+        " Adventure",
+        " Sci-Fi"
+      ],
+      "image_url": "anime/Shangri-La Frontier.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G79H23Z8P/shangri-la-frontier"
+    },
+    {
+      "id": "35",
+      "title": "Shikkakumon no Saikyou Kenja",
+      "author": "Shinkou Shotou",
+      "publication_date": "2016",
+      "genre": [
+        "Fantasy",
+        " Isekai",
+        " Adventure"
+      ],
+      "image_url": "anime/Shikkakumon no Saikyou Kenja.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G5PHNM4K8/the-strongest-sage-with-the-weakest-crest?srsltid=AfmBOorFSt96t3NynDM4heAzRbBhJuvW9puRLBYsgHwRp5NRv8qzRmqf"
+    },
+    {
+      "id": "36",
+      "title": "Shinobi no Ittoki",
+      "author": "Takahashi Yoshiyuki",
+      "publication_date": "2021",
+      "genre": [
+        "Action",
+        " Ninja",
+        " Drama"
+      ],
+      "image_url": "anime/Shinobi no Ittoki.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G5PHNM7KG/shinobi-no-ittoki"
+    },
+    {
+      "id": "37",
+      "title": "Strike the Blood",
+      "author": "Gakuto Mikumo",
+      "publication_date": "2011",
+      "genre": [
+        "Action",
+        " Fantasy",
+        " Supernatural"
+      ],
+      "image_url": "anime/Strike the Blood.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video?search=Strike%20the%20Blood"
+    },
+    {
+      "id": "38",
+      "title": "Sword Art Online",
+      "author": "Rei Kawahara",
+      "publication_date": "2009",
+      "genre": [
+        "Action",
+        " Adventure",
+        " Isekai"
+      ],
+      "image_url": "anime/Sword Art Online.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/search?q=Sword%20Art%20Online"
+    },
+    {
+      "id": "39",
+      "title": "Tales of Zestiria the X",
+      "author": "Fumi, Miko",
+      "publication_date": "2016",
+      "genre": [
+        "Fantasy",
+        " Action",
+        " Adventure"
+      ],
+      "image_url": "anime/Tales of Zestiria the X.jpg",
+      "info_url": "https://anime-sama.fr/catalogue/tales-of-zestiria/"
+    },
+    {
+      "id": "40",
+      "title": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+      "author": "Shirayuki",
+      "publication_date": "2019",
+      "genre": [
+        "Romance",
+        " Comedy",
+        " Slice of Life"
+      ],
+      "image_url": "anime/The 100 Girlfriends Who Really, Really, Really, Really, Really Love You.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GNVHKN933/the-100-girlfriends-who-really-really-really-really-really-love-you"
+    },
+    {
+      "id": "41",
+      "title": "The God of High School",
+      "author": "Yongje Park",
+      "publication_date": "2011",
+      "genre": [
+        "Action",
+        " Martial Arts",
+        " Tournament"
+      ],
+      "image_url": "anime/The God of High School.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GRVD0ZDQR/the-god-of-high-school"
+    },
+    {
+      "id": "42",
+      "title": "The Kingdoms of Ruin",
+      "author": "Yōko Murata",
+      "publication_date": "2021",
+      "genre": [
+        "Fantasy",
+        " Action",
+        " Adventure"
+      ],
+      "image_url": "anime/The Kingdoms of Ruin.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GG5H5XQ14/the-kingdoms-of-ruin"
+    },
+    {
+      "id": "43",
+      "title": "The Last Summoner",
+      "author": "Kono, Saki",
+      "publication_date": "2017",
+      "genre": [
+        "Fantasy",
+        " Adventure",
+        " Action"
+      ],
+      "image_url": "anime/The Last Summoner.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GG5H5X05J/the-last-summoner"
+    },
+    {
+      "id": "44",
+      "title": "The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
+      "author": "Piero Karasu",
+      "publication_date": "2021",
+      "genre": [
+        "Fantasy",
+        " Romance",
+        " Isekai"
+      ],
+      "image_url": "anime/The Magical Revolution of the Reincarnated Princess and the Genius Young Lady.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G5PHNM7J2/the-magical-revolution-of-the-reincarnated-princess-and-the-genius-young-lady"
+    },
+    {
+      "id": "45",
+      "title": "The Misfit of Demon King Academy",
+      "author": "Shuu",
+      "publication_date": "2018",
+      "genre": [
+        "Action",
+        " Fantasy",
+        " Isekai"
+      ],
+      "image_url": "anime/The Misfit of Demon King Academy.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GY243NN0R/the-misfit-of-demon-king-academy"
+    },
+    {
+      "id": "46",
+      "title": "The Reincarnation of the Strongest Exorcist in Another World",
+      "author": "Kiichi Kosuzu",
+      "publication_date": "2018",
+      "genre": [
+        "Isekai",
+        " Action",
+        " Fantasy"
+      ],
+      "image_url": "anime/The Reincarnation of the Strongest Exorcist in Another World.jpg",
+      "info_url": ""
+    },
+    {
+      "id": "47",
+      "title": "The Rising of the Shield Hero",
+      "author": "Aneko Yusagi",
+      "publication_date": "2012",
+      "genre": [
+        "Isekai",
+        " Fantasy",
+        " Action"
+      ],
+      "image_url": "anime/The Rising of the Shield Hero.jpeg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G1XHJVWXG/the-reincarnation-of-the-strongest-exorcist-in-another-world"
+    },
+    {
+      "id": "48",
+      "title": "Tokyo Ghoul",
+      "author": "Sui Ishida",
+      "publication_date": "2011",
+      "genre": [
+        "Action",
+        " Horror",
+        " Supernatural"
+      ],
+      "image_url": "anime/Tokyo Ghoul.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G6NV7Z50Y/tokyo-ghoul"
+    },
+    {
+      "id": "49",
+      "title": "Tomo-chan Is a Girl!",
+      "author": "Fumita Yanagida",
+      "publication_date": "2015",
+      "genre": [
+        "Romance",
+        " Comedy",
+        " Slice of Life"
+      ],
+      "image_url": "anime/Tomo-chan Is a Girl.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G0XHWM5Q4/tomo-chan-is-a-girl"
+    },
+    {
+      "id": "50",
+      "title": "Tomodachi Game",
+      "author": "Yuki Sato",
+      "publication_date": "2013",
+      "genre": [
+        "Psychological",
+        " Mystery",
+        " Thriller"
+      ],
+      "image_url": "anime/tomodachi game.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GJ0H7QX0Z/tomodachi-game"
+    },
+    {
+      "id": "51",
+      "title": "Tonikaku Kawaii",
+      "author": "Kenjirou Hata",
+      "publication_date": "2018",
+      "genre": [
+        "Romance",
+        " Comedy",
+        " Slice of Life"
+      ],
+      "image_url": "anime/Tonikaku Kawaii.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GRWMGGQ86/tonikawa-over-the-moon-for-you"
+    },
+    {
+      "id": "52",
+      "title": "Uzaki-chan wa Asobitai!",
+      "author": "Take",
+      "publication_date": "2017",
+      "genre": [
+        "Romance",
+        " Comedy",
+        " Slice of Life"
+      ],
+      "image_url": "anime/Uzaki-chan wa Asobitai!.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GNVHKN7KZ/uzaki-chan-wants-to-hang-out"
+    },
+    {
+      "id": "53",
+      "title": "Valkyrie Apocalypse",
+      "author": "Shinya Umemura, Takumi Fukui",
+      "publication_date": "2020",
+      "genre": [
+        "Action",
+        " Fantasy",
+        " Mythology"
+      ],
+      "image_url": "anime/Valkyrie Apocalypse.jpg",
+      "info_url": "https://anime-sama.fr/catalogue/valkyrie-apocalypse/"
+    },
+    {
+      "id": "54",
+      "title": "Wakfu",
+      "author": "Tot, Kamui Fujiwara",
+      "publication_date": "2008",
+      "genre": [
+        "Fantasy",
+        " Adventure",
+        " Action"
+      ],
+      "image_url": "anime/Wakfu.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video?search=Wakfu"
+    },
+    {
+      "id": "55",
+      "title": "Wind Breaker",
+      "author": "Yun Seung-eun",
+      "publication_date": "2018",
+      "genre": [
+        "Sports",
+        " Action",
+        " Drama"
+      ],
+      "image_url": "anime/Wind Breaker.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G3KHEVDPE/wind-breaker"
+    },
+    {
+      "id": "56",
+      "title": "Yofukashi no Uta",
+      "author": "Kou Hirakawa",
+      "publication_date": "2019",
+      "genre": [
+        "Supernatural",
+        " Romance",
+        " Drama"
+      ],
+      "image_url": "anime/Yofukashi-no-Uta.jpg",
+      "info_url": "https://anime-sama.fr/catalogue/yofukashi-no-uta/"
+    },
+    {
+      "id": "57",
+      "title": "Yu-Gi-Oh",
+      "author": "Kazuki Takahashi",
+      "publication_date": "1996",
+      "genre": [
+        "Action",
+        " Adventure",
+        " Game"
+      ],
+      "image_url": "anime/Yu-Gi-Oh.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video?search=Yu-Gi-Oh"
+    },
+    {
+      "id": "58",
+      "title": "A Condition Called Love",
+      "author": "Meguru Hinohara",
+      "publication_date": "2019",
+      "genre": [
+        "Romance",
+        "Drama",
+        "Shoujo"
+      ],
+      "image_url": "anime/A Condition Called Love.jpeg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GP5HJ84QX/a-condition-called-love?srsltid=AfmBOor2ijB7qUhauOovCCEMpyW-iZukuVRYoWHxN8AZs2cU2WElDua5"
+    },
+    {
+      "id": "59",
+      "title": "A Couple Of Cuckoos",
+      "author": "Miki Yoshikawa",
+      "publication_date": "2020",
+      "genre": [
+        "Romance",
+        "Comedy",
+        "Shounen"
+      ],
+      "image_url": "anime/A Couple Of Cuckoos.png",
+      "info_url": "https://www.crunchyroll.com/fr/series/GXJHM39MP/a-couple-of-cuckoos"
+    },
+    {
+      "id": "60",
+      "title": "Akashic Records",
+      "author": "Taro Hitsuji",
+      "publication_date": "2016",
+      "genre": [
+        "Action",
+        "Fantasy",
+        "School"
+      ],
+      "image_url": "anime/Akashic Records.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GYDQ8WZ16/akashic-records-of-bastard-magic-instructor"
+    },
+    {
+      "id": "61",
+      "title": "Ao Haru Ride",
+      "author": "Io Sakisaka",
+      "publication_date": "2011",
+      "genre": [
+        "Romance",
+        "Shoujo",
+        "Drama"
+      ],
+      "image_url": "anime/Ao Haru Ride.jpg",
+      "info_url": "https://anime-sama.fr/catalogue/ao-haru-ride/"
+    },
+    {
+      "id": "62",
+      "title": "Assassination Classroom",
+      "author": "Yūsei Matsui",
+      "publication_date": "2012",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Shounen"
+      ],
+      "image_url": "anime/Assassination Classroom.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video?search=Assassination%20Classroom"
+    },
+    {
+      "id": "63",
+      "title": "Battle Game in 5 Seconds",
+      "author": "Saizou Harawata",
+      "publication_date": "2015",
+      "genre": [
+        "Action",
+        "Shounen",
+        "Supernatural"
+      ],
+      "image_url": "anime/Battle Game in 5 Seconds.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G8DHV7DG7/battle-game-in-5-seconds"
+    },
+    {
+      "id": "64",
+      "title": "Black Clover",
+      "author": "Yūki Tabata",
+      "publication_date": "2015",
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Shounen"
+      ],
+      "image_url": "anime/Black Clover.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GRE50KV36/black-clover"
+    },
+    {
+      "id": "65",
+      "title": "Bleach",
+      "author": "Tite Kubo",
+      "publication_date": "2001",
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Shounen"
+      ],
+      "image_url": "anime/Bleach.jpeg",
+      "info_url": "https://anime-sama.fr/catalogue/bleach/"
+    },
+    {
+      "id": "66",
+      "title": "Blue Exorcist",
+      "author": "Kazue Kato",
+      "publication_date": "2009",
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Shounen"
+      ],
+      "image_url": "anime/Blue Exorcist.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G649PJ0JY/blue-exorcist"
+    },
+    {
+      "id": "67",
+      "title": "By the Grace of the Gods",
+      "author": "Ryo Shirakome",
+      "publication_date": "2017",
+      "genre": [
+        "Fantasy",
+        "Adventure",
+        "Isekai"
+      ],
+      "image_url": "anime/By the Grace of the Gods.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GP5HJ85ED/by-the-grace-of-the-gods"
+    },
+    {
+      "id": "68",
+      "title": "Chainsaw Man",
+      "author": "Tatsuki Fujimoto",
+      "publication_date": "2018",
+      "genre": [
+        "Action",
+        "Horror",
+        "Shounen"
+      ],
+      "image_url": "anime/Chainsaw Man.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GVDHX8QNW/chainsaw-man"
+    },
+    {
+      "id": "69",
+      "title": "Charlotte",
+      "author": "Jun Maeda",
+      "publication_date": "2010",
+      "genre": [
+        "Supernatural",
+        "Drama",
+        "Romance"
+      ],
+      "image_url": "anime/charlotte.jpg",
+      "info_url": "https://anime-sama.fr/catalogue/charlotte/"
+    },
+    {
+      "id": "70",
+      "title": "Cheat Skill Level Up",
+      "author": "Shinkou Shotou",
+      "publication_date": "2020",
+      "genre": [
+        "Fantasy",
+        "Action",
+        "Isekai"
+      ],
+      "image_url": "anime/Cheat Skill Level Up.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GEXH3W49E/i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world-too"
+    },
+    {
+      "id": "71",
+      "title": "Classroom of the Elite",
+      "author": "Shougo Kinugasa",
+      "publication_date": "2015",
+      "genre": [
+        "Psychological",
+        "School",
+        "Drama"
+      ],
+      "image_url": "anime/Classroom of the Elite.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GRVN8MNQY/classroom-of-the-elite"
+    },
+    {
+      "id": "72",
+      "title": "Cyberpunk Edgerunners",
+      "author": "Studio Trigger",
+      "publication_date": "2022",
+      "genre": [
+        "Action",
+        "Cyberpunk",
+        "Sci-Fi"
+      ],
+      "image_url": "anime/Cyberpunk  Edgerunners.jpg",
+      "info_url": "https://anime-sama.fr/catalogue/cyberpunk-edgerunners/"
+    },
+    {
+      "id": "73",
+      "title": "Death Note",
+      "author": "Tsugumi Ohba",
+      "publication_date": "2003",
+      "genre": [
+        "Psychological",
+        "Thriller",
+        "Supernatural"
+      ],
+      "image_url": "anime/dead note.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G6QWD3EE6/death-note"
+    },
+    {
+      "id": "74",
+      "title": "Demon Slayer",
+      "author": "Koyoharu Gotouge",
+      "publication_date": "2016",
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Shounen"
+      ],
+      "image_url": "anime/Demon Slayer.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"
+    },
+    {
+      "id": "75",
+      "title": "Devilman Crybaby",
+      "author": "Go Nagai",
+      "publication_date": "2018",
+      "genre": [
+        "Horror",
+        "Supernatural",
+        "Psychological"
+      ],
+      "image_url": "anime/Devilman Crybaby.jpg",
+      "info_url": "https://anime-sama.fr/catalogue/devilman-crybaby/"
+    },
+    {
+      "id": "76",
+      "title": "Dr. Stone",
+      "author": "Riichiro Inagaki",
+      "publication_date": "2017",
+      "genre": [
+        "Science",
+        "Adventure",
+        "Shounen"
+      ],
+      "image_url": "anime/Dr. Stone.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GYEXQKJG6/dr-stone"
+    },
+    {
+      "id": "77",
+      "title": "Dragon Ball Z",
+      "author": "Akira Toriyama",
+      "publication_date": "1989",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Shounen"
+      ],
+      "image_url": "anime/Dragon Ball Z.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/search?q=Dragon%20Ball%20Z"
+    },
+    {
+      "id": "78",
+      "title": "Dragon Quest",
+      "author": "Riku Sanjo",
+      "publication_date": "1986",
+      "genre": [
+        "Adventure",
+        "Fantasy",
+        "Shounen"
+      ],
+      "image_url": "anime/Dragon Quest.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GYXM79M56/dragon-quest-the-adventure-of-dai"
+    },
+    {
+      "id": "79",
+      "title": "ēlDLIVE",
+      "author": "Akira Amano",
+      "publication_date": "2013",
+      "genre": [
+        "Action",
+        "Sci-Fi",
+        "Shounen"
+      ],
+      "image_url": "anime/ēlDLIVE.jpg",
+      "info_url": "pas de lien"
+    },
+    {
+      "id": "80",
+      "title": "Endride",
+      "author": "Kazuya Minekura",
+      "publication_date": "2016",
+      "genre": [
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "image_url": "anime/Endride.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video/411-endride"
+    },
+    {
+      "id": "81",
+      "title": "Fairy Tail",
+      "author": "Hiro Mashima",
+      "publication_date": "2006",
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Adventure"
+      ],
+      "image_url": "anime/Fairy Tail.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G6DQDD3WR/fairy-tail"
+    },
+    {
+      "id": "82",
+      "title": "Farming Life in Another World",
+      "author": "Kinosuke Naito",
+      "publication_date": "2016",
+      "genre": [
+        "Fantasy",
+        "Isekai",
+        "Adventure"
+      ],
+      "image_url": "anime/Farming Life in Another World.png",
+      "info_url": "https://animationdigitalnetwork.com/video/1008-farming-life-in-another-world"
+    },
+    {
+      "id": "83",
+      "title": "Fire Force",
+      "author": "Atsushi Ōkubo",
+      "publication_date": "2015",
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Shounen"
+      ],
+      "image_url": "anime/Fire Force.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GYQWNXPZY/fire-force"
+    },
+    {
+      "id": "84",
+      "title": "Food Wars",
+      "author": "Yūto Tsukuda",
+      "publication_date": "2012",
+      "genre": [
+        "Comedy",
+        "Cooking",
+        "Shounen"
+      ],
+      "image_url": "anime/Food Wars.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G6GG91P26/food-wars-shokugeki-no-soma"
+    },
+    {
+      "id": "85",
+      "title": "Fullmetal Alchemist",
+      "author": "Hiromu Arakawa",
+      "publication_date": "2001",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "image_url": "anime/Fullmetal Alchemist.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video/1103-fullmetal-alchemist-brotherhood"
+    },
+    {
+      "id": "86",
+      "title": "Goblin Slayer",
+      "author": "Kumo Kagyu",
+      "publication_date": "2016",
+      "genre": [
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "image_url": "anime/Goblin Slayer.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G6VDMN306/goblin-slayer"
+    },
+    {
+      "id": "87",
+      "title": "High School DxD BorN",
+      "author": "Ichiei Ishibumi",
+      "publication_date": "2012",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Ecchi"
+      ],
+      "image_url": "anime/High School DxD BorN.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GRVD0ZDQR/the-god-of-high-school"
+    },
+    {
+      "id": "88",
+      "title": "Horimiya",
+      "author": "Hero",
+      "publication_date": "2007",
+      "genre": [
+        "Romance",
+        "Comedy",
+        "Slice of Life"
+      ],
+      "image_url": "anime/Horimiya.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/G9VHN9P43/horimiya"
+    },
+    {
+      "id": "89",
+      "title": "How A Realist Hero Rebuilds The Kingdom",
+      "author": "Daisuke Aizawa",
+      "publication_date": "2016",
+      "genre": [
+        "Fantasy",
+        "Isekai",
+        "Drama"
+      ],
+      "image_url": "anime/How A Realist Hero Rebuild The Kingdom.jpg",
+      "info_url": "https://anime-sama.fr/catalogue/how-a-realist-hero-rebuild-the-kingdom/"
+    },
+    {
+      "id": "90",
+      "title": "Hunter x Hunter",
+      "author": "Yoshihiro Togashi",
+      "publication_date": "1998",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Shounen"
+      ],
+      "image_url": "anime/Hunter x Hunter.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video/267-hunter-x-hunter-2011"
+    },
+    {
+      "id": "91",
+      "title": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
+      "author": "Kenkyo na",
+      "publication_date": "2020",
+      "genre": [
+        "Fantasy",
+        "Isekai",
+        "Adventure"
+      ],
+      "image_url": "anime/I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability.jpg",
+      "info_url": "https://www.crunchyroll.com/fr/series/GJ0H7QG4E/i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability"
+    },
+    {
+      "id": "92",
+      "title": "I Parry Everything",
+      "author": "Yomi Kaito",
+      "publication_date": "2021",
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Shounen"
+      ],
+      "image_url": "anime/I Will Parry All.jpg",
+      "info_url": "https://animationdigitalnetwork.com/video/1207-i-parry-everything"
+    }
+  ]
+}

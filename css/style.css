@@ -1,0 +1,226 @@
+/* parti de base html */ 
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    color: rgb(255, 255, 255); 
+    background-color: rgb(0, 0, 0);
+}
+
+/* parti animation en haut */
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}
+
+/* message de beinvenue */
+.hero {
+    height: 50em; 
+    background: url('../deku.jpg') center/cover; 
+    color: #ffffff; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.hero h1 {
+    font-size: 3em; 
+    animation: fadeInDown 2s; 
+    background-color: #000000; 
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.hero p {
+    font-size: 1.2em; 
+    margin-top: 1em; 
+    animation: fadeInUp 2s; 
+    background-color: #000000; 
+    border-radius: 50px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.up{
+    position: fixed;
+    top: 38em; 
+    left: 10px; 
+    width: 5em;
+    filter: invert(1); 
+    
+}
+
+/* organise les section */
+.section {
+    padding: 3em 3em; 
+    text-align: center; 
+    
+}
+
+.section a{
+    text-decoration: none;
+}
+
+section h2{
+    margin-bottom: 10px;
+}
+
+section p{
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 80em;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+article{
+    background-color: rgb(0, 0, 0);
+    padding: 2em;
+    border-radius: 10px;
+    border: 5px solid #00aaff;
+}
+
+h2{
+    color: #00aaff;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #000000; /* place une ligne en dessou des h2 */
+    padding-bottom: 1em;
+    text-align: center ;
+}
+
+p{
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+/* pour les codes */
+pre{
+    background-color: #282c34;
+    color: gainsboro;
+    padding: 1em;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 1em;
+    white-space: pre-wrap; /* Conserve les espaces multiples et les retours à la ligne, avec retour automatique. */
+}
+
+article h2:hover{
+    color: red;
+}
+
+
+/* parti compétence */
+.pok-list {
+    display: flex; 
+    gap: 1em; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    
+    
+}
+
+.pok {
+    background: #ffd700; 
+    padding: 2em; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+    
+}
+
+.pok:hover{
+    transform: scale(1.2); 
+}
+
+
+/* partie notes */
+.notes-list {
+    display: flex; 
+    gap: 1em; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.but {
+    background: #00ffbf; 
+    padding: 2em; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+}
+
+.but:hover {
+    transform: scale(1.2); 
+}
+
+/* champ du formulaire de contact */
+input{
+    color: rgb(0, 0, 0);
+}
+
+.contact form {
+    display: flex; 
+    flex-direction: column; 
+    gap: 1em; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+.contact input, .contact textarea {
+    padding: 1em; 
+    border: 5px solid #c8ff00; 
+    border-radius: 5px; 
+}
+
+
+button {
+    background-color: #333; 
+    color: #ffd700; 
+    padding: 0.8em; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.contact button:hover {
+    background-color: #575757; 
+}
+
+.cv:hover{
+    transform: scale(2.2);
+}
+
+.cv{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 1.5s;
+}
+
+

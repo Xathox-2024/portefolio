@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+/* balck et white trop bien ;) */
+.white-mode {
+  background-color: rgb(255, 255, 255);
+
+  p {
+    color: black;
+  }
+
+  article {
+    background-color: white;
+  }
+
+  footer {
+    background-color: white;
+  }
+
+  .face,
+  .insta,
+  .twitter {
+    filter: invert(0);
+  }
+
+  nav {
+    background-color: white;
+  }
+
+  .hero {
+    color: #000000;
+  }
+
+  .hero h1 {
+    background-color: #ffffff;
+  }
+
+  .hero p {
+    background-color: #ffffff;
+  }
+
+  article li {
+    color: black;
+  }
+
+  .all-but h2 {
+    color: rgb(0, 0, 0);
+  }
+}
+
+.mode-BW {
+  padding: 10px;
+  height: 3em;
+  width: 3em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 2em;
+  background-color: #000000;
+  color: #ff8c00;
+  font-weight: bold;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+}
+
+.navbar a {
+  color: #ff8c00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #00ef1474;
+}

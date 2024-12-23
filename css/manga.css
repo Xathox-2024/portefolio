@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 20px;
+}
+
+.up {
+  position: fixed;
+  top: 38em;
+  left: 10px;
+  width: 5em;
+  filter: invert(1);
+}
+
+.cadre {
+  background-color: aqua;
+  width: 31%;
+  border-radius: 10px;
+  margin: 10px;
+  border: solid 2px black;
+  text-align: center;
+  color: black;
+}
+
+.titre,
+.author,
+.date,
+.but,
+.genre {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.imgs {
+  border-radius: 10px;
+  height: 20rem;
+  width: 26rem;
+  margin-bottom: 1em;
+  border: solid 2px black;
+  transition: transform 0.3s;
+}
+
+.imgs:hover {
+  transform: scale(1.2);
+}
+
+.but {
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 1rem;
+}

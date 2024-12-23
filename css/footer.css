@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+/* parti footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #000000;
+  color: white;
+  margin-top: 2em;
+}
+
+footer p {
+  margin-bottom: -1.5em;
+}
+
+.face,
+.insta,
+.twitter {
+  filter: invert(1);
+}
+
+.logfoot {
+  display: flex;
+  gap: 1em;
+  justify-content: end;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
