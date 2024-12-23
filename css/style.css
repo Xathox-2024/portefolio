@@ -102,6 +102,10 @@ article{
     border: 5px solid #00aaff;
 }
 
+article li{
+    list-style-type: none;
+}
+
 h2{
     color: #00aaff;
     margin-bottom: 0.5em;
