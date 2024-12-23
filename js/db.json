@@ -1196,5 +1196,19 @@
       "image_url": "anime/I Will Parry All.jpg",
       "info_url": "https://animationdigitalnetwork.com/video/1207-i-parry-everything"
     }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "tomAdmin2000",
+      "userpassword": "75DRtyPS1",
+      "type": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "userpassword": "1234",
+      "type": "users"
+    }
   ]
 }
