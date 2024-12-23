@@ -60,6 +60,9 @@ body {
   padding: 10px;
   height: 3em;
   width: 3em;
+  position: absolute;
+  top: 3%; 
+  right: 32em; 
 }
 
 .navbar {
