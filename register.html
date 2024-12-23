@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrire</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div class="register-container">
+        <h2>Inscription</h2>
+        <form id="registerForm">
+            <div class="input-group">
+                <label for="newUsername">Identifiant</label>
+                <input 
+                    type="text" 
+                    id="newUsername" 
+                    name="newUsername" 
+                    required 
+                    pattern="[a-zA-Z0-9]+" 
+                    title="Seuls les lettres et chiffres sont autorisés"
+                >
+                <div id="username-feedback" class="feedback"></div>
+            </div>
+            <div class="input-group">
+                <label for="newPassword">Mot de passe</label>
+                <input 
+                    type="password" 
+                    id="newPassword" 
+                    name="newPassword" 
+                    required 
+                    title="Minimum 8 caractères, une majuscule, un chiffre, et un caractère spécial"
+                >
+                <div id="password-feedback" class="feedback"></div>
+            </div>
+            <button type="submit" id="registerBtn">S'inscrire</button>
+        </form>
+        <p>Déjà inscrit ? <a href="login.html">Se connecter</a></p>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+</html>
+

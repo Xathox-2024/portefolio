@@ -1209,6 +1209,12 @@
       "username": "user",
       "userpassword": "1234",
       "type": "users"
+    },
+    {
+      "id": "a4e5",
+      "username": "tom",
+      "userpassword": "75DRtyPS123!",
+      "type": "user"
     }
   ]
 }

@@ -2,9 +2,9 @@ const Div = document.createElement("div");
 Div.id = "up";
 document.body.appendChild(Div);
 
-const navbarDiv = document.createElement("div");
-navbarDiv.id = "navbar";
-document.body.appendChild(navbarDiv);
+// const navbarDiv = document.createElement("div");
+// navbarDiv.id = "navbar";
+// document.body.appendChild(navbarDiv);
 
 const heroHeader = document.createElement("header");
 heroHeader.className = "hero";

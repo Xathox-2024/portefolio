@@ -1,7 +1,7 @@
-// navbar.js
 document.addEventListener("DOMContentLoaded", function() {
     const navbarContainer = document.getElementById("navbar");
 
+    // Charger la navbar à partir de navbar.html
     fetch("navbar.html")
         .then(response => {
             if (!response.ok) {
@@ -11,6 +11,18 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .then(data => {
             navbarContainer.innerHTML = data;
+
+            // Ajouter l'événement de déconnexion après le chargement de la navbar
+            const deconnexionBtn = document.getElementById("deconnexionBtn");
+            if (deconnexionBtn) {
+                deconnexionBtn.addEventListener("click", function() {
+                    // Effacer le localStorage
+                    localStorage.clear();
+
+                    // Rediriger vers login.html
+                    window.location.href = 'login.html';
+                });
+            }
         })
         .catch(error => {
             console.error("Erreur:", error);
