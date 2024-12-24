@@ -85,18 +85,18 @@ h2 {
   text-align: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .cadre {
     width: 45%;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 985px) {
   .cadre {
     width: 100%;
     margin-bottom: 20px;
   }
-  
+
   .imgs {
     width: 100%;
     height: auto;

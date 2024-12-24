@@ -114,7 +114,6 @@ body {
   color: #00ef1474;
 }
 
-
 button {
   background-color: #333;
   color: #ffd700;
@@ -123,4 +122,8 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+}
+
+.add {
+  margin-left: 2em;
 }
