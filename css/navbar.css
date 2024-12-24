@@ -113,3 +113,14 @@ body {
 .navbar a:hover {
   color: #00ef1474;
 }
+
+
+button {
+  background-color: #333;
+  color: #ffd700;
+  padding: 0.8em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

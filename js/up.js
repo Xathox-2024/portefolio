@@ -1,5 +1,5 @@
 // Sélectionner l'image/lien
-const upButton = document.getElementById('upButton');
+const up = document.getElementById('upButton');
 
 // Ajouter un écouteur pour surveiller le défilement
 window.addEventListener('scroll', () => {

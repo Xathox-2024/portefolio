@@ -1,6 +1,6 @@
-const Div = document.createElement("div");
-Div.id = "up";
-document.body.appendChild(Div);
+// const Div = document.createElement("div");
+// Div.id = "up";
+// document.body.appendChild(Div);
 
 // const navbarDiv = document.createElement("div");
 // navbarDiv.id = "navbar";
