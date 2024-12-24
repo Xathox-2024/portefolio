@@ -35,6 +35,9 @@ main {
   border: solid 2px black;
   text-align: center;
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titre,
@@ -61,6 +64,7 @@ main {
 
 .but {
   padding: 10px;
+  margin-top: auto;
 }
 
 h2 {
@@ -68,15 +72,52 @@ h2 {
 }
 
 #searchInput {
-  border-radius: 25px; /* coins arrondis */
+  border-radius: 25px;
   font-size: 16px;
 }
 
 #searchInput:focus {
   border-color: #4caf50;
-  outline: none; /*permet de ssupprimé le contour par défaut*/
+  outline: none;
 }
 
 .search {
   text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .cadre {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cadre {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .imgs {
+    width: 100%;
+    height: auto;
+  }
+
+  .up {
+    top: 20em;
+  }
+}
+
+@media (max-width: 480px) {
+  .cadre {
+    width: 100%;
+  }
+
+  .imgs {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .search {
+    margin-top: 10px;
+  }
 }
