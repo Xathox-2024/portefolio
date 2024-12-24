@@ -1,15 +1,53 @@
-// Fonction pour générer le HTML de chaque manga
+// Fonction pour générer le HTML de chaque manga avec un bouton "Supprimer"
 function mangas(element) {
   return `
-        <div class="cadre">
+        <div class="cadre" id="manga-${element.id}">
           <h2 class="titre">${element.title}</h2>
           <p class="author">Auteur : ${element.author}</p>
           <p class="date">Date de publication : ${element.publication_date}</p>
           <p class="genre">Genre : ${element.genre}</p>
           <img class="imgs" src="${element.image_url}" alt="Image du manga">
-          <a href="${element.info_url}" target="_blank" id="button-container"><button id="button-container" class="but">Sélectionner</button></a>
+          <a href="${element.info_url}" target="_blank" id="button-container">
+            <button id="button-container" class="but">Sélectionner</button>
+          </a>
+          <button class="delete-button" onclick="deleteManga('${element.id}')">Supprimer</button>
         </div>
       `;
+}
+
+// Fonction pour supprimer un manga par son ID
+async function deleteManga(id) {
+  // Demande de confirmation avant suppression
+  const isConfirmed = window.confirm("Êtes-vous sûr de vouloir supprimer ce manga ?");
+
+  if (isConfirmed) {
+    try {
+      // Envoie la requête pour supprimer le manga
+      const response = await fetch(`http://localhost:3000/mangas/${id}`, {
+        method: 'DELETE'
+      });
+
+      if (response.ok) {
+        // Supprime l'élément du DOM après la suppression du serveur
+        const mangaElement = document.getElementById(`manga-${id}`);
+        mangaElement.remove();
+
+        // Optionnel : Si vous voulez mettre à jour la liste après suppression
+        window.mangasData = window.mangasData.filter(manga => manga.id !== id);
+        
+        // Alerte de succès
+        alert("Le manga a été supprimé avec succès.");
+      } else {
+        console.error("Erreur lors de la suppression du manga.");
+        alert("Une erreur est survenue lors de la suppression.");
+      }
+    } catch (error) {
+      console.error("Erreur lors de la requête de suppression :", error);
+      alert("Erreur de connexion au serveur.");
+    }
+  } else {
+    alert("Suppression annulée.");
+  }
 }
 
 // Fonction pour afficher les mangas
@@ -48,9 +86,3 @@ async function fetchMangas() {
 
 // Appel de la fonction pour récupérer et afficher les mangas
 fetchMangas();
-
-
-
-// il faut faire la commande =>  npx json-server db.json
-
-
