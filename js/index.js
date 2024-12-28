@@ -69,10 +69,10 @@ headers.innerHTML += `
             <h2>Les destinations qui me fascinent</h2>
             <div>
                 <ul>
+                    <li><strong>La Nouvelle-Zélande :</strong> Entre mer et montagnes, ce pays est un paradis pour les amateurs de nature et d'aventure, avec ses décors dignes des plus grands films de fantasy.</li>
                     <li><strong>Le Japon :</strong> Pays des animes, des temples anciens et des traditions riches. Mon rêve est de visiter Akihabara, de goûter la cuisine locale, et de découvrir la culture japonaise à travers ses paysages et son histoire.</li>
                     <li><strong>L'Islande :</strong> Ses volcans, ses glaciers et ses aurores boréales me captivent. C'est un pays où la nature règne en maître et où chaque coin semble magique.</li>
                     <li><strong>Le Pérou :</strong> Le Machu Picchu et l'histoire des Incas sont des mystères que j'aimerais explorer. La richesse culturelle et les paysages montagneux du Pérou m'attirent depuis longtemps.</li>
-                    <li><strong>La Nouvelle-Zélande :</strong> Entre mer et montagnes, ce pays est un paradis pour les amateurs de nature et d'aventure, avec ses décors dignes des plus grands films de fantasy.</li>
                 </ul>
             </div>
         </article>
@@ -121,6 +121,3 @@ headers.innerHTML += `
         <a href="#up" id="upButton"><img class="up" src="images/up.png" alt="404"></a>
 
         `
-
-
-        // il faut faire la commande =>  npx json-server db.json
