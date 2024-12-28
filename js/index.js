@@ -118,6 +118,5 @@ headers.innerHTML += `
             <button type="submit">Envoyer</button>
         </form>
 
-        <a href="#up" id="upButton"><img class="up" src="images/up.png" alt="404"></a>
 
         `

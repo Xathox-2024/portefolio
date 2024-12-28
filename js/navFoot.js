@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
 // Fonction pour charger le contenu du footer
 function loadFooter() {
     fetch("footer.html")

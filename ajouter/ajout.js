@@ -42,7 +42,7 @@ document.getElementById("addButton").addEventListener("click", async function(ev
             document.getElementById("mangaForm").reset();  // Réinitialiser le formulaire
 
             // Redirection vers manga.html
-            window.location.href = "manga.html";
+            window.location.href = "../manga.html";
         } else {
             console.error("Erreur lors de l'ajout du manga.");
             alert("Une erreur est survenue, veuillez réessayer.");
