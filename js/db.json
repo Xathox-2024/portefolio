@@ -742,30 +742,22 @@
       "info_url": "https://animationdigitalnetwork.com/video?search=Yu-Gi-Oh"
     },
     {
-      "id": "58",
       "title": "A Condition Called Love",
       "author": "Meguru Hinohara",
       "publication_date": "2019",
-      "genre": [
-        "Romance",
-        "Drama",
-        "Shoujo"
-      ],
+      "genre": "Romance,Drama,Shoujo",
       "image_url": "anime/A Condition Called Love.jpeg",
-      "info_url": "https://www.crunchyroll.com/fr/series/GP5HJ84QX/a-condition-called-love?srsltid=AfmBOor2ijB7qUhauOovCCEMpyW-iZukuVRYoWHxN8AZs2cU2WElDua5"
+      "info_url": "https://www.crunchyroll.com/fr/series/GP5HJ84QX/a-condition-called-love?srsltid=AfmBOor2ijB7qUhauOovCCEMpyW-iZukuVRYoWHxN8AZs2cU2WElDua5",
+      "id": "58"
     },
     {
-      "id": "59",
       "title": "A Couple Of Cuckoos",
       "author": "Miki Yoshikawa",
       "publication_date": "2020",
-      "genre": [
-        "Romance",
-        "Comedy",
-        "Shounen"
-      ],
+      "genre": "Romance,Comedy,Shounen",
       "image_url": "anime/A Couple Of Cuckoos.png",
-      "info_url": "https://www.crunchyroll.com/fr/series/GXJHM39MP/a-couple-of-cuckoos"
+      "info_url": "https://www.crunchyroll.com/fr/series/GXJHM39MP/a-couple-of-cuckoos",
+      "id": "59"
     },
     {
       "id": "60",
