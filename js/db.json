@@ -1214,7 +1214,13 @@
       "id": "a4e5",
       "username": "tom",
       "userpassword": "75DRtyPS123!",
-      "type": "user"
+      "type": "users"
+    },
+    {
+      "id": "15e1",
+      "username": "tom54",
+      "userpassword": "75DRtyPS1!",
+      "type": "users"
     }
   ]
 }

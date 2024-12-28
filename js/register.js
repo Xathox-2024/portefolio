@@ -43,7 +43,7 @@ document
     const formData = {
       username: username,
       userpassword: userpassword,
-      type: "user", // Type utilisateur par défaut
+      type: "users", // Type utilisateur par défaut
     };
 
     // Enregistrement de l'utilisateur

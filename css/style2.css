@@ -1,3 +1,4 @@
+/* Réinitialisation des marges et du box-sizing */
 * {
   margin: 0;
   padding: 0;
@@ -5,90 +6,120 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   display: flex;
-  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
 }
 
-h1 {
-  margin-bottom: 1em;
-  color: rgb(255, 255, 255);
-  font-size: 10em;
-  text-align: center; /* Centre le texte */
-}
-
-h2 {
-  margin-bottom: 20px;
-  color: #fff6f6;
-  display: inline-block; /* Permet de ne prendre que la largeur du texte */
-  padding: 10px; /* Espace autour du texte */
-  background-color: rgba(
-    255,
-    0,
-    0,
-    0.6
-  ); /* Couleur de fond avec un peu de transparence */
-  border-radius: 5px; /* Coins arrondis pour le fond */
-}
-
-.container {
+/* Conteneur principal */
+.register-container {
   width: 100%;
-  max-width: 600px; /* Limite la largeur pour que le contenu soit bien centré */
-  padding: 30px;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #1f1f1f;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centre le contenu à l'intérieur */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
+/* Titre principal */
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #ff6b6b;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Groupe d'entrées */
 .input-group {
   margin-bottom: 20px;
-  width: 100%;
+  text-align: left;
 }
 
 .input-group label {
+  display: block;
   margin-bottom: 8px;
+  font-weight: bold;
   color: #ffffff;
 }
 
 .input-group input {
-  width: 100%; /* Toujours occuper toute la largeur disponible */
-  max-width: 500px; /* Allonge les inputs jusqu'à 500px */
-  min-width: 300px; /* Définit une largeur minimale pour plus de contrôle */
+  width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #444;
   border-radius: 4px;
+  background-color: #2b2b2b;
+  color: #ffffff;
   font-size: 16px;
 }
 
-.login-container {
-  text-align: center;
-  margin-top: 20px;
+.input-group input:focus {
+  outline: none;
+  border-color: #ff6b6b;
+  box-shadow: 0 0 5px rgba(255, 107, 107, 0.5);
 }
 
-p {
-  color: white;
-  margin-top: 1em;
-  text-align: center;
-}
-
+/* Bouton */
 button {
   width: 100%;
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
+  padding: 12px;
+  background-color: #ff6b6b;
+  color: #ffffff;
   border: none;
   border-radius: 4px;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #e05656;
+}
+
+button:active {
+  background-color: #c14c4c;
+}
+
+/* Lien */
+p {
+  margin-top: 10px;
 }
 
 a {
-  color: #007bff;
+  color: #ff6b6b;
   text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Message de feedback */
+.feedback {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #ff6b6b;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .register-container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  button {
+    font-size: 14px;
+  }
 }
