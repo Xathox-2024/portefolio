@@ -7,13 +7,15 @@ function mangas(element) {
           <p class="date">Date de publication : ${element.publication_date}</p>
           <p class="genre">Genre : ${element.genre}</p>
           <img class="imgs" src="${element.image_url}" alt="Image du manga">
-          <a href="${element.info_url}" target="_blank" id="button-container">
-            <button class="but">Sélectionner</button>
-          </a>
-          <button class="delete-button" onclick="deleteManga('${element.id}')">Supprimer</button>
-          <a href="../modif/modif.html?id=${element.id}">
-            <button class="edit-button">Modifier</button>
-          </a>
+          <div class="button-container">  
+            <a href="${element.info_url}" target="_blank" id="button-container">
+              <button>Sélectionner</button>
+            </a>
+            <button onclick="deleteManga('${element.id}')">Supprimer</button>
+            <a href="../modif/modif.html?id=${element.id}">
+              <button>Modifier</button>
+            </a>
+          </div>
         </div>
       `;
 }
