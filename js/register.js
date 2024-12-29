@@ -40,7 +40,7 @@ document
     const formData = {
       username: username,
       userpassword: userpassword,
-      type: "users", 
+      type: "user", 
     };
 
     

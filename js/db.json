@@ -1198,21 +1198,9 @@
     },
     {
       "id": "1815",
-      "username": "user",
-      "userpassword": "1234",
-      "type": "users"
-    },
-    {
-      "id": "a4e5",
       "username": "tom",
-      "userpassword": "75DRtyPS123!",
-      "type": "users"
-    },
-    {
-      "id": "15e1",
-      "username": "tom54",
-      "userpassword": "75DRtyPS1!",
-      "type": "users"
+      "userpassword": "123456",
+      "type": "user"
     }
   ]
 }

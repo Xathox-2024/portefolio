@@ -12,6 +12,23 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             navbarContainer.innerHTML = data;
 
+            // Récupérer le rôle de l'utilisateur depuis localStorage
+            const userRole = localStorage.getItem("role"); // "admin" ou "user"
+
+            // Ajouter les éléments à l'intérieur de l'élément #deconnexion
+            const deconnexionContainer = document.getElementById("decoAjout");
+            if (deconnexionContainer) {
+                let html = `<button id="deconnexionBtn">Déconnexion</button>`;
+
+                // Ajouter le bouton "Ajouter" uniquement si l'utilisateur est un "admin"
+                if (userRole === "admin") {
+                    html += `<a href="ajouter/ajout.html" class="add"><button>Ajouter</button></a>`;
+                }
+
+                // Ajouter le HTML modifié dans le conteneur de déconnexion
+                deconnexionContainer.innerHTML = html;
+            }
+
             // Ajouter l'événement de déconnexion après le chargement de la navbar
             const deconnexionBtn = document.getElementById("deconnexionBtn");
             if (deconnexionBtn) {
@@ -29,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
             navbarContainer.innerHTML = "<p>Erreur lors du chargement de la barre de navigation.</p>";
         });
 });
-
 
 // Fonction pour charger le contenu du footer
 function loadFooter() {
