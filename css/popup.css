@@ -1,0 +1,60 @@
+/* Style pour la popup */
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    position: relative;
+    background: #fff;
+    padding: 40px; /* Augmente l'espace autour du lecteur */
+    border-radius: 10px; /* Rend les bords plus arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    width: 90%; /* La largeur est maintenant de 90% de l'écran */
+    height: 90%; /* La hauteur est maintenant de 90% de l'écran */
+    max-width: 1200px; /* Limite la largeur max à 1200px */
+    max-height: 800px; /* Limite la hauteur max à 800px */
+    text-align: center;
+  }
+  
+  #youtube-player {
+    width: 100%;
+    height: 100%; /* Le lecteur occupe toute la hauteur de la popup */
+    border-radius: 8px; /* Bords arrondis du lecteur */
+  }
+  
+  .close-popup {
+    position: absolute;
+    top: -20px; /* Positionne le bouton plus haut */
+    right: -20px; /* Positionne le bouton plus à droite */
+    background: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px; /* Taille du bouton agrandie */
+    height: 50px; /* Taille du bouton agrandie */
+    font-size: 28px; /* Taille du texte plus grande */
+    cursor: pointer;
+  }
+  
+  .close-popup:hover {
+    background: #ff1a1a;
+  }
+  
+  .imgs {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .imgs:hover {
+    transform: scale(1.1);
+  }
+  

@@ -8,6 +8,7 @@ document.getElementById("addButton").addEventListener("click", async function(ev
     const genreInput = document.getElementById("genre").value;
     const image_url = document.getElementById("image_url").value;
     const info_url = document.getElementById("info_url").value;
+    const video_url = document.getElementById("video").value; // Récupère l'URL de la vidéo YouTube
 
     // Conversion du champ genre en tableau
     const genre = genreInput.split(",").map(g => g.trim()); // On divise par les virgules et on enlève les espaces
@@ -15,7 +16,7 @@ document.getElementById("addButton").addEventListener("click", async function(ev
     // Génération de l'ID numérique unique (en utilisant le timestamp actuel) et conversion en chaîne de caractères
     const id = String(Date.now());  // ID converti en chaîne de caractères
 
-    // Création de l'objet manga à envoyer avec l'ID
+    // Création de l'objet manga à envoyer avec l'ID et la vidéo
     const newManga = {
         id: id,  // Ajout de l'ID
         title: title,
@@ -23,7 +24,8 @@ document.getElementById("addButton").addEventListener("click", async function(ev
         publication_date: publication_date,
         genre: genre,
         image_url: image_url,
-        info_url: info_url
+        info_url: info_url,
+        video: video_url  // Ajout de l'URL de la vidéo YouTube
     };
 
     try {

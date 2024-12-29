@@ -28,8 +28,17 @@
             <label for="info_url">URL du manga :</label>
             <input type="url" id="info_url" name="info_url" placeholder="Lien du manga" required>
 
+            <label for="video">URL de la vidéo :</label>
+            <input type="url" id="video" name="video" placeholder="Lien de la vidéo YouTube">
+
             <button type="button" id="saveButton">Sauvegarder les modifications</button>
         </form>
+
+        <!-- Prévisualisation de la vidéo -->
+        <div id="videoPreviewContainer" style="display:none; margin-top: 20px;">
+            <h3>Prévisualisation :</h3>
+            <iframe id="videoPreview" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
 
     <script src="modif.js"></script>
