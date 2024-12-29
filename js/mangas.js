@@ -1,23 +1,37 @@
-// Fonction pour générer le HTML de chaque manga avec un bouton "Supprimer"
+// Fonction pour générer le HTML de chaque manga avec un bouton "Supprimer" et "Modifier"
 function mangas(element) {
-  return `
-        <div class="cadre" id="manga-${element.id}">
-          <h2 class="titre">${element.title}</h2>
-          <p class="author">Auteur : ${element.author}</p>
-          <p class="date">Date de publication : ${element.publication_date}</p>
-          <p class="genre">Genre : ${element.genre}</p>
-          <img class="imgs" src="${element.image_url}" alt="Image du manga">
-          <div class="button-container">  
-            <a href="${element.info_url}" target="_blank" id="button-container">
-              <button>Sélectionner</button>
-            </a>
-            <button onclick="deleteManga('${element.id}')">Supprimer</button>
-            <a href="../modif/modif.html?id=${element.id}">
-              <button>Modifier</button>
-            </a>
-          </div>
-        </div>
-      `;
+  // Vérification du rôle de l'utilisateur (stocké dans le localStorage)
+  const userRole = localStorage.getItem("role"); // Récupère le rôle de l'utilisateur
+  let buttons = `
+    <div class="cadre" id="manga-${element.id}">
+      <h2 class="titre">${element.title}</h2>
+      <p class="author">Auteur : ${element.author}</p>
+      <p class="date">Date de publication : ${element.publication_date}</p>
+      <p class="genre">Genre : ${element.genre}</p>
+      <img class="imgs" src="${element.image_url}" alt="Image du manga">
+      <div class="button-container">
+        <a href="${element.info_url}" target="_blank" id="button-container">
+          <button>Sélectionner</button>
+        </a>
+  `;
+
+  // Si l'utilisateur est un admin, on affiche les boutons "Supprimer" et "Modifier"
+  if (userRole === "admin") {
+    buttons += `
+      <button onclick="deleteManga('${element.id}')">Supprimer</button>
+      <a href="../modif/modif.html?id=${element.id}">
+        <button>Modifier</button>
+      </a>
+    `;
+  }
+
+  // Fermeture de la div
+  buttons += `
+      </div>
+    </div>
+  `;
+  
+  return buttons; // Retourne le HTML complet avec ou sans les boutons selon le rôle
 }
 
 // Fonction pour supprimer un manga par son ID
@@ -64,7 +78,7 @@ function displayMangas(mangasList) {
   const main = document.querySelector("main");
   main.innerHTML = ""; // Réinitialise l'affichage avant de recharger les mangas filtrés
   mangasList.forEach((element) => {
-    main.innerHTML += mangas(element);
+    main.innerHTML += mangas(element); // Appelle la fonction mangas pour chaque manga
   });
 }
 
@@ -86,9 +100,7 @@ async function fetchMangas() {
     const response = await fetch("http://localhost:3000/mangas");
     const data = await response.json();
 
-    data.sort((a, z) => a.title.localeCompare(z.title)); // Trie alphabétique
-
-    console.log(data);
+    data.sort((a, z) => a.title.localeCompare(z.title)); // Trie alphabétiquement
 
     window.mangasData = data; // Sauvegarde les données globalement pour le filtrage
     displayMangas(data); // Affiche la liste complète au départ
