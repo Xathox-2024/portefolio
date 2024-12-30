@@ -15,9 +15,8 @@
   .popup-content {
     position: relative;
     background: #fff;
-    padding: 40px; /* Augmente l'espace autour du lecteur */
+    padding: 10px; /* Augmente l'espace autour du lecteur */
     border-radius: 10px; /* Rend les bords plus arrondis */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     width: 90%; /* La largeur est maintenant de 90% de l'écran */
     height: 90%; /* La hauteur est maintenant de 90% de l'écran */
     max-width: 1200px; /* Limite la largeur max à 1200px */

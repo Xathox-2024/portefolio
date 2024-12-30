@@ -889,18 +889,14 @@
       "video": "https://www.youtube.com/watch?v=ag_TTVUJRB0"
     },
     {
-      "id": "65",
       "title": "Bleach",
       "author": "Tite Kubo",
       "publication_date": "2001",
-      "genre": [
-        "Action",
-        "Supernatural",
-        "Shounen"
-      ],
+      "genre": "Action,Supernatural,Shounen",
       "image_url": "anime/Bleach.jpeg",
       "info_url": "https://anime-sama.fr/catalogue/bleach/",
-      "video": "https://www.youtube.com/watch?v=Ifh8gbMPz4Y"
+      "video": "https://www.youtube.com/watch?v=mjeR7vUrDvM",
+      "id": "65"
     },
     {
       "id": "66",

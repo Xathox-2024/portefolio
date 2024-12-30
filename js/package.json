@@ -1,0 +1,10 @@
+{
+  "name": "json-server-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0"
+  }
+}
