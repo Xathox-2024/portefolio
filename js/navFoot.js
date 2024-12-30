@@ -1,66 +1,45 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const navbarContainer = document.getElementById("navbar");
+document.addEventListener("DOMContentLoaded", () => {
+  const navbarContainer = document.getElementById("navbar");
 
-    // Charger la navbar à partir de navbar.html
-    fetch("../navbar.html")
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Erreur de chargement de la navbar.");
-            }
-            return response.text();
-        })
-        .then(data => {
-            navbarContainer.innerHTML = data;
+  fetch("../navbar.html")
+    .then((response) => {
+      if (!response.ok) throw new Error("Erreur de chargement de la navbar.");
+      return response.text();
+    })
+    .then((data) => {
+      navbarContainer.innerHTML = data;
 
-            // Récupérer le rôle de l'utilisateur depuis localStorage
-            const userRole = localStorage.getItem("role"); // "admin" ou "user"
+      const userRole = localStorage.getItem("role");
+      const deconnexionContainer = document.getElementById("decoAjout");
 
-            // Ajouter les éléments à l'intérieur de l'élément #deconnexion
-            const deconnexionContainer = document.getElementById("decoAjout");
-            if (deconnexionContainer) {
-                let html = `<button id="deconnexionBtn">Déconnexion</button>`;
+      if (deconnexionContainer) {
+        deconnexionContainer.innerHTML = `
+          <button id="deconnexionBtn">Déconnexion</button>
+          ${userRole === "admin" ? '<a href="ajouter/ajout.html" class="add"><button>Ajouter</button></a>' : ''}
+        `;
 
-                // Ajouter le bouton "Ajouter" uniquement si l'utilisateur est un "admin"
-                if (userRole === "admin") {
-                    html += `<a href="ajouter/ajout.html" class="add"><button>Ajouter</button></a>`;
-                }
-
-                // Ajouter le HTML modifié dans le conteneur de déconnexion
-                deconnexionContainer.innerHTML = html;
-            }
-
-            // Ajouter l'événement de déconnexion après le chargement de la navbar
-            const deconnexionBtn = document.getElementById("deconnexionBtn");
-            if (deconnexionBtn) {
-                deconnexionBtn.addEventListener("click", function() {
-                    // Effacer le localStorage
-                    localStorage.clear();
-
-                    // Rediriger vers login.html
-                    window.location.href = '../login.html';
-                });
-            }
-        })
-        .catch(error => {
-            console.error("Erreur:", error);
-            navbarContainer.innerHTML = "<p>Erreur lors du chargement de la barre de navigation.</p>";
+        document.getElementById("deconnexionBtn").addEventListener("click", () => {
+          localStorage.clear();
+          window.location.href = "../login.html";
         });
+      }
+    })
+    .catch((error) => {
+      console.error("Erreur:", error);
+      navbarContainer.innerHTML = "<p>Erreur lors du chargement de la barre de navigation.</p>";
+    });
+
+  fetchFooter();
 });
 
-// Fonction pour charger le contenu du footer
-function loadFooter() {
-    fetch("footer.html")
-        .then(response => {
-            if (!response.ok) throw new Error("Erreur de chargement du footer.");
-            return response.text();
-        })
-        .then(data => {
-            document.getElementById("footer-container").innerHTML = data;
-        })
-        .catch(error => {
-            console.error("Erreur:", error);
-        });
+function fetchFooter() {
+  fetch("footer.html")
+    .then((response) => {
+      if (!response.ok) throw new Error("Erreur de chargement du footer.");
+      return response.text();
+    })
+    .then((data) => {
+      document.getElementById("footer-container").innerHTML = data;
+    })
+    .catch((error) => console.error("Erreur:", error));
 }
-
-// Appel de la fonction pour charger le footer quand la page est prête
-document.addEventListener("DOMContentLoaded", loadFooter);

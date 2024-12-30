@@ -1,56 +1,37 @@
 document.getElementById("addButton").addEventListener("click", async function(event) {
-    event.preventDefault();  // Empêche le rechargement de la page
+    event.preventDefault();
 
-    // Récupération des données du formulaire
-    const title = document.getElementById("title").value;
-    const author = document.getElementById("author").value;
-    const publication_date = document.getElementById("publication_date").value;
-    const genreInput = document.getElementById("genre").value;
-    const image_url = document.getElementById("image_url").value;
-    const info_url = document.getElementById("info_url").value;
-    const video_url = document.getElementById("video").value; // Récupère l'URL de la vidéo YouTube
+    const formElements = {
+        title: document.getElementById("title").value,
+        author: document.getElementById("author").value,
+        publication_date: document.getElementById("publication_date").value,
+        genre: document.getElementById("genre").value.split(",").map(g => g.trim()),
+        image_url: document.getElementById("image_url").value,
+        info_url: document.getElementById("info_url").value,
+        video: document.getElementById("video").value
+    };
 
-    // Conversion du champ genre en tableau
-    const genre = genreInput.split(",").map(g => g.trim()); // On divise par les virgules et on enlève les espaces
-
-    // Génération de l'ID numérique unique (en utilisant le timestamp actuel) et conversion en chaîne de caractères
-    const id = String(Date.now());  // ID converti en chaîne de caractères
-
-    // Création de l'objet manga à envoyer avec l'ID et la vidéo
     const newManga = {
-        id: id,  // Ajout de l'ID
-        title: title,
-        author: author,
-        publication_date: publication_date,
-        genre: genre,
-        image_url: image_url,
-        info_url: info_url,
-        video: video_url  // Ajout de l'URL de la vidéo YouTube
+        id: String(Date.now()),
+        ...formElements
     };
 
     try {
-        // Envoi de la requête POST pour ajouter le manga
         const response = await fetch("http://localhost:3000/mangas", {
             method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(newManga) // Conversion de l'objet en JSON
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(newManga)
         });
 
         if (response.ok) {
-            // Si le manga est ajouté avec succès, on peut nettoyer le formulaire ou informer l'utilisateur
             alert("Manga ajouté avec succès!");
-            document.getElementById("mangaForm").reset();  // Réinitialiser le formulaire
-
-            // Redirection vers manga.html
+            document.getElementById("mangaForm").reset();
             window.location.href = "../manga.html";
         } else {
-            console.error("Erreur lors de l'ajout du manga.");
-            alert("Une erreur est survenue, veuillez réessayer.");
+            throw new Error("Erreur lors de l'ajout du manga.");
         }
     } catch (error) {
-        console.error("Erreur de connexion :", error);
-        alert("Erreur de connexion au serveur.");
+        console.error(error);
+        alert("Une erreur est survenue, veuillez réessayer.");
     }
 });
