@@ -32,15 +32,15 @@
   
   .close-popup {
     position: absolute;
-    top: -20px; /* Positionne le bouton plus haut */
-    right: -20px; /* Positionne le bouton plus à droite */
+    top: 0px; /* Positionne le bouton plus haut */
+    right: -54px; /* Positionne le bouton plus à droite */
     background: #ff4d4d;
     color: #fff;
     border: none;
     border-radius: 50%;
     width: 50px; /* Taille du bouton agrandie */
     height: 50px; /* Taille du bouton agrandie */
-    font-size: 28px; /* Taille du texte plus grande */
+    font-size: 19px; /* Taille du texte plus grande */
     cursor: pointer;
   }
   
