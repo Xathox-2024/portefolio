@@ -8,7 +8,8 @@ document.getElementById("addButton").addEventListener("click", async function(ev
         genre: document.getElementById("genre").value.split(",").map(g => g.trim()),
         image_url: document.getElementById("image_url").value,
         info_url: document.getElementById("info_url").value,
-        video: document.getElementById("video").value
+        video: document.getElementById("video").value,
+        statut: document.getElementById('statut').value
     };
 
     const newManga = {

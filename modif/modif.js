@@ -20,6 +20,7 @@ async function loadMangaData(id) {
         document.getElementById('image_url').value = manga.image_url;
         document.getElementById('info_url').value = manga.info_url;
         document.getElementById('video').value = manga.video || ''; // Ajouter l'URL de la vidéo si elle existe
+        document.getElementById('statut').value = manga.statut || '';
 
         // Si la vidéo existe, afficher l'iframe avec la vidéo YouTube
         updateVideoPreview(manga.video);
@@ -70,13 +71,15 @@ function updateVideoPreview(videoUrl) {
 // Fonction pour sauvegarder les modifications
 async function saveManga(id) {
     const updatedManga = {
+        id: id,
         title: document.getElementById('title').value,
         author: document.getElementById('author').value,
         publication_date: document.getElementById('publication_date').value,
         genre: document.getElementById('genre').value,
         image_url: document.getElementById('image_url').value,
         info_url: document.getElementById('info_url').value,
-        video: document.getElementById('video').value.trim() || null // Sauvegarder l'URL de la vidéo, ou null si vide
+        video: document.getElementById('video').value.trim() || null, // Sauvegarder l'URL de la vidéo, ou null si vide
+        statut: document.getElementById('statut').value.trim() || null
     };
 
     try {

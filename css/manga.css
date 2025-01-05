@@ -60,7 +60,8 @@ main {
 .author,
 .date,
 .but,
-.genre {
+.genre,
+.statut {
   margin-bottom: 15px;
   font-weight: bold;
 }
@@ -115,7 +116,7 @@ button {
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
-  margin-bottom: 30px;  /* Ajout de l'espace sous les boutons */
+  margin-bottom: 30px; /* Ajout de l'espace sous les boutons */
 }
 
 .button-container button {

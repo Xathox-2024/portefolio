@@ -29,25 +29,25 @@ function closeVideoPopup() {
 
 function mangas(element) {
   const userRole = localStorage.getItem("role");
-  const deleteButton = userRole === "admin" ? `
+  const deleteButton =
+    userRole === "admin"
+      ? `
     <button onclick="deleteManga('${element.id}')">Supprimer</button>
     <a href="../modif/modif.html?id=${element.id}">
       <button>Modifier</button>
     </a>
-  ` : "";
+  `
+      : "";
   return `
     <div class="cadre" id="manga-${element.id}">
       <h2 class="titre">${element.title}</h2>
       <p class="author">Auteur : ${element.author}</p>
       <p class="date">Date de publication : ${element.publication_date}</p>
       <p class="genre">Genre : ${element.genre}</p>
+      <p class="statut">statut : ${element.statut}</p>
       <img class="imgs" src="${element.image_url}" alt="Image du manga" onclick="openVideoPopup('${element.video}')">
       <div class="button-container">
-        <a href="${element.info_url}" target="_blank">
-          <button>Sélectionner</button>
-        </a>
-        ${deleteButton}
-      </div>
+        <a href="${element.info_url}" target="_blank"><button>Sélectionner</button></a>${deleteButton}</div>
     </div>
   `;
 }
@@ -55,10 +55,14 @@ function mangas(element) {
 async function deleteManga(id) {
   if (window.confirm("Êtes-vous sûr de vouloir supprimer ce manga ?")) {
     try {
-      const response = await fetch(`http://localhost:3000/mangas/${id}`, { method: "DELETE" });
+      const response = await fetch(`http://localhost:3000/mangas/${id}`, {
+        method: "DELETE",
+      });
       if (response.ok) {
         document.getElementById(`manga-${id}`)?.remove();
-        window.mangasData = window.mangasData.filter((manga) => manga.id !== id);
+        window.mangasData = window.mangasData.filter(
+          (manga) => manga.id !== id
+        );
         alert("Le manga a été supprimé avec succès.");
       } else {
         alert("Une erreur est survenue lors de la suppression.");
@@ -77,7 +81,9 @@ function displayMangas(mangasList) {
 }
 
 function filterMangas() {
-  const searchInput = document.getElementById("searchInput").value.toLowerCase();
+  const searchInput = document
+    .getElementById("searchInput")
+    .value.toLowerCase();
   const filteredMangas = window.mangasData.filter((manga) =>
     manga.title.toLowerCase().includes(searchInput)
   );
