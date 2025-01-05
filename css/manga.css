@@ -44,7 +44,7 @@ main {
 }
 
 .cadre {
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   width: 31%;
   border-radius: 10px;
   margin: 10px;

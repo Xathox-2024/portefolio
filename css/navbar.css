@@ -70,6 +70,10 @@ body {
   ul li a {
     color: black;
   }
+
+  .cadre {
+    background-color: rgb(182, 180, 180);
+  }
 }
 
 .mode-BW {
